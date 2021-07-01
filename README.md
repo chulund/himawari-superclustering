@@ -1,9 +1,9 @@
 # himawari-8 superclustering script
-The script in this respotitory are the simplified version for hotspot superclustering and determining point of origin using arcpy.
-Although simplified, it should be sufficient to do hotspot superclustering and generating point of origin attribute.
+The script in this respotitory are the simplified version for hotspot superclustering (and determining the point of origin of the supercluster) using arcpy.
+Although simplified, it should be sufficient for hotspot superclustering and determining the point of origin.
 
 It should be noted there is no extended version for the python/arcgis based superclustering since the superclustering was mostly done via model-builder and also FME.
-The Matlab version of the script is also included in this repository. However, it is not recommended since the process is so long.
+The Matlab version of the script is also included in this repository. However, it is not recommended to use the matlab script, since the scripts haven't been cleaned and properly documented. Besides, the python script is faster than the matlab script.
 
 ### Folder explanation
 There are several folder in this repository. When running the script it is advised to keep the folder location as it is.
